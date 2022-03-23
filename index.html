@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klara Suchanova Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d3d4eb587.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="queries.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logosec row">
+           <img src="Images/Logo.png" alt="">  
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li class="navbar">
+                        <a href="#" class="jq--scroll-skills">Dovednosti
+                        </a>
+                    </li>
+                    <li class="navbar">
+                        <a href="#" class="jq--scroll-portfolio">Projekty
+                        </a>
+                    </li>
+                    <li class="navbar">
+                        <a href="#" class="jq--scroll-about-me">Kdo jsem
+                        </a>
+                    </li>
+                    <li class="navbar">
+                        <a href="#" class="jq--scroll-contacts">Kontakt
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="mobile-nav-back"></div>
+                <a class="mobile-nav-icon jq--nav-icon"><img class="jq--image-hamburger" src="Images/hamburgerMenu.png" alt=""></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="opening">
+            <div class="portrait">     
+            </div>
+            <div class="hello row">
+                <h1>Ahoj,<br> jmenuji se<span> Klára Suchanová</span>
+                </h1>
+                <h2 class="text">Jsem junior frontend developer
+                </h2>
+            </div> 
+            <div class="row">
+                <i class="icon fa-brands fa-github"></i>
+                <i class="icon fa-brands fa-linkedin"></i>
+                <i class="icon fa-solid fa-square-envelope"></i>
+                <div class="location"><i class="fa-solid fa-location-dot"></i><p class="town">Praha, CZ</p></div>
+                
+            </div>   
+        </section>
+    
+        <section class="skills row jq--skills">
+            <h3 class="title">Dovednosti</h3>
+            <div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div><p>Výše uvedené znalosti mám z&nbsp;kurzů: Udemy, Czechitas, Mimo, W3Schools a Youtube (David Šetek a Kevin Powell).</p></div>
+        </section>
+
+        <section class="portfolio-bcg jq--portfolio">
+            <div class="portfolio row">
+            <h3 class="title">Mé projekty</h3>
+            
+            <div class="container">
+                
+                    <a href="#" class="card">
+                        <img src="Images/Cupcakes.png" alt=""><p>Úvodní strana fiktivního eshopu s cupcaky. Responzivní. Jquery lightbox galerie, CSS media queries, grid. </p>
+                    </a>
+                
+                    <a href="#" class="card">
+                        <img src="Images/Tesla.png" alt=""><p>Úvodní webová strana fiktivního klubu s&nbsp;formulářem.</p>
+                    </a>
+                
+                    <a href="#" class="card">
+                        <img src="Images/Prusa.png" alt=""><p>Jednoduchý remake oblíbených stránek pomocí HTML a CSS.</p>
+                    </a>
+            </div>  
+        </section>
+
+        <section class="about-me row jq--about-me">
+            <h3 class="title">Kdo jsem</h3>
+            <div>    
+                <p>Mám magisterský titul z&nbsp;Univerzity Karlovy bez&nbsp;IT zaměření. Od roku 2021 jsem ponořená ve&nbsp;frontendu a nesmírně mě to baví.</p>
+            </div>
+            <div>    
+                <h4>Cíl</h4>
+                <p>Ráda bych si našla praxi a později práci ve&nbsp;frontendu. Jsem schopna se v&nbsp;krátké době naučit vše, co bude potřeba.</p>
+            </div>
+            <div>
+                <h4>Co získáte spoluprácí se mnou?</h4> 
+                <p> Člověka s&nbsp;chutí a zápalem do nových věcí, člověka kreativního a s&nbsp;citem pro detail. Multitasking je mé druhé jméno a slovo prokrastinace neznám.</p>
+            </div>   
+            <div>
+                <h4>Mé jiné zájmy</h4>
+                <p>Než jsem se ponořila do&nbsp;IT světa, učila jsem se cizí jazyky pro&nbsp;zábavu. Chodím pravidelně na&nbsp;Hospodské kvízy, náš tým je už roky jeden z&nbsp;nejlepších v&nbsp;republice. A ráda kreslím. </p> 
+            </div> 
+            <div class="btn-cv row">
+                <a href="#">CV ke&nbsp;stažení
+                    <span>  
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact-bcg jq--contacts">
+            <div class="contact row">
+                <h3 class="title">Kontakty</h3>
+                <p class="email">klara.suchanova@seznam.cz</p><br>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-solid fa-square-envelope"></i>
+                    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="row">
+            <p class="copyright">&copy; Designed and coded by Klára&nbsp;Suchanová 2022 </p>
+        </section>
+    </footer>
+</body>
+</html>
