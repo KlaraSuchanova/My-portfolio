@@ -200,11 +200,16 @@ nav ul li a {
 }
 
 .skills div ul li:nth-child(4) {
+    background: #150224;
+    max-width: 175px;    
+}
+
+.skills div ul li:nth-child(5) {
     background: #8348b4;
     max-width: 60px;    
 }
 
-.skills div ul li:nth-child(5) {
+.skills div ul li:nth-child(6) {
     background: #8348b4;
     max-width: 60px;    
 }
