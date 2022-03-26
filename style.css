@@ -138,6 +138,7 @@ nav ul li a {
     padding: 40px 5px;
     margin-top: 20px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .location {
@@ -386,7 +387,7 @@ nav ul li a {
     text-align: center;
 }
 
-.contact p {
+.contact a {
     display:inline-block;
     color: #150224;
     font-family:'Orbitron', Tahoma, Geneva, Verdana, sans-serif;
@@ -394,6 +395,8 @@ nav ul li a {
     letter-spacing: 3px;
     line-height: 30px;
     font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .contact i {
@@ -402,6 +405,7 @@ nav ul li a {
     color: #150224;
     font-size: 40px;
     margin: 0 60px 60px 60px;
+    cursor: pointer;
 }
 
 /*********** Footer ***************/
