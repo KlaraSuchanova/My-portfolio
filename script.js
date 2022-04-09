@@ -33,13 +33,13 @@
         /* Change hamburger to cross vice versa*/
 
         $(".jq--image-hamburger").click(function(){
-            if($(".jq--image-hamburger").attr("src") == "Images/hamburgerMenu.png")
+            if($(".jq--image-hamburger").attr("src") == "images/hamburgerMenu.png")
             {
-                $( $(".jq--image-hamburger").attr("src","Images/crossMenu.png"))    
+                $( $(".jq--image-hamburger").attr("src","images/crossMenu.png"))    
             }
             else
             {
-                $( $(".jq--image-hamburger").attr("src","Images/hamburgerMenu.png"))    
+                $( $(".jq--image-hamburger").attr("src","images/hamburgerMenu.png"))    
             }
         });
 
