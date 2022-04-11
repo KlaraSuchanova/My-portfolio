@@ -215,6 +215,11 @@ nav ul li a {
     max-width: 60px;    
 }
 
+.skills div ul li:nth-child(7) {
+    background: #3d2d68;  
+    max-width: 130px;   
+}
+
 .skills p { 
     color: #150224;
     font-family: 'Inconsolata', monospace;
